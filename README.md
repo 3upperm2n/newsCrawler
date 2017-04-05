@@ -1,16 +1,10 @@
 # newsCrawler
+* Use google news to create personalized RSS  
+* Fetch news from the RSS link
+* Check whether the RSS feed is new and updated (within 24 hours and new)
+* Save them and email the news!
 
-### Task: find out news about a stock company
-* Cypress Semiconductor Corporation 
 
-```
-input: keywords
-
-use  google  news crawler to find out the news 
-https://pypi.python.org/pypi/google_news_crawler
-
-use machine learning algorithm to classify whether it is positive or negative
-
-visualize the data along the timeline 
-
-```
+### Reference
+* http://www.programcreek.com/python/example/558/feedparser.parse
+* http://alvinalexander.com/python/python-script-read-rss-feeds-database
